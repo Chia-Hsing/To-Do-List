@@ -1,0 +1,79 @@
+body {
+    background: #eae071;
+}
+
+.wrap {
+    width: 720px;
+    margin: auto;
+}
+.wrap .title h1 {
+    font-weight: lighter;
+    font-size: 8em;
+    color: #ff8936;
+    margin: 10px 0;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    border: 1px solid #8a8074;
+    box-shadow: 3px 2px 3px 1px hsla(209, 25%, 30%, 0.3);
+}
+.container input {
+    border: 1px solid #8a8074;
+    box-sizing: border-box;
+    outline: none;
+    width: 100%;
+    height: 80px;
+    padding: 0 30px;
+    font-size: 2em;
+    font-weight: lighter;
+    background: #f5b610;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.container input::-webkit-input-placeholder {
+    color: #18181c;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Amatic SC', cursive;
+}
+.container .list {
+    width: 100%;
+}
+.container .list .toDoItem {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    border: 1px solid #8a8074;
+    background: #f7f7f4;
+    padding: 0 20px;
+    position: relative;
+}
+.container .list .toDoItem .something {
+    margin: 0 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+}
+.container .list .toDoItem input {
+    zoom: 50%;
+    width: 50px;
+    padding: 0;
+    margin: 0;
+}
+.container .list .toDoItem button {
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    position: absolute;
+    right: 20px;
+}
+
+/* .bottom {
+    border: 1px solid hsl(200, 0%, 70%);
+    box-sizing: border-box;
+    background: hsla(200, 20%, 90%, .7);
+    padding: 0 30px;
+    width: 100%;
+} */
