@@ -1,5 +1,5 @@
 # To-Do-List
-A simple "to-do list" which was mostly built with JQuery. It allows you to manage the errands and chores that need to be done in an efficient way.
+A simple "to-do list" mostly built with JQuery. It allows you to manage the errands and chores that need to be done in an efficient way.
 
 
 [Live Demo](https://chia-hsing.github.io/To-Do-List/)
